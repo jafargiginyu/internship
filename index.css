@@ -1,0 +1,202 @@
+/*Main Body*/
+.rectangle-2 {
+  background-color: #FDFEFE;
+  width: 100%;
+  height: 705px;
+}
+.rectangle-3{
+  min-width: 100%;
+  min-height: 756px;
+  margin: 0px;
+  display: flex-box;
+  padding: 10px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+
+
+/*Top Backgroung Image*/
+.hero {
+  min-width: 100%;
+  max-width: 100%;
+  height: 742px;
+  background-image: url("images/Bitmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*eha logo*/
+.ehealth-logo {
+  width: 152px;
+  height: 44px;
+  margin-left: 143px;
+  margin-top: 23px;
+}
+
+/*top-text*/
+.internship-programme{
+  width:100%;
+  text-align: right;
+  border: 1px solid tomato;
+  padding-right: 15px;
+  color: #fff;
+}
+
+/*Oval Background color*/
+/*.oval-4 {
+  background-image: linear-gradient(179.39deg, #0294DA 0%, #734FAB 100%);
+  border-radius: 100%;
+  opacity: 0.9448596014492754;
+  width: 1017px;
+  height: 700px;
+  margin-left: -300px;
+  margin-right: 506px;
+  margin-top: 50px;
+   border-top-right-radius: 80%;
+   border-bottom-right-radius: 150%;
+
+}*/
+.oval-4 {
+
+  /*shape-outside: ellipse(100%, 50%);
+  border-radius: 100%;
+  background-image: linear-gradient(179.39deg, #0294DA 0%, #734FAB 100%);
+  opacity: 0.9448596014492754;*/
+  position:absolute;
+  left:-54px;
+  top:145px;
+  width: 800px;
+  height: 600px;
+  z-index: 1;
+}
+#svg_1{
+  fill:url(#MyGradient);
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.my-brand{
+
+}
+.my-brand img{
+  width: 152px;
+  height: 44px;
+  margin-top: 20px;
+}
+.top-nav{
+  text-align: right;
+  padding-top: 39px;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+  float: right;
+}
+.top-nav>a{
+  margin-right: 45px;
+  font-family: 'open sans' 'Roboto' tahoma;
+  color: #fff;
+}
+
+.shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+  .shadow:hover {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  }
+
+.shadow-nohover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box {
+  background: #424242;
+  border-radius: 0.3rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.card{
+  background: #fff;
+  border: 0px;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+
+.card-header {
+  background: #212121;
+}
+  .card-header:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    border: 1rem solid transparent;
+    border-right: 1.25rem solid #212121;
+  }
+
+.tag {
+  position: relative;
+  padding: 12px 25px;
+  border: solid #212121;
+  border-width: 1px 1px 1px 0;
+  border-radius: 0 12.5px 12.5px 0;
+  background-image: linear-gradient(#212121,  #303030);
+  box-shadow: 2px 2px 1px -1px rgba(0, 0, 0, 0.2), 2px 2px 1px -1px rgba(0, 0, 0, 0.14), 2px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+  .tag:before {
+    content: "";
+    position: absolute;
+    border: 1px solid #212121;
+    border-radius: 15px 0 0 0;
+    background-image: linear-gradient(#212121,  #303030);
+    z-index: -1;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    transform: translate(-51px, -1px) scale(0.70711, 0.70711) rotateZ(-45deg);
+  }
+  .tag:after {
+    content: "";
+    position: absolute;
+    border: 1px solid #212121;
+    border-radius: 50%;
+    background:  #303030;
+    top: 18px;
+    left: -3px;
+    width: 13px;
+    height: 13px;
+  }
+  .tag:hover {
+    box-shadow: 16px 12px 6px rgba(0, 0, 0, 0.2), 12px 8px 12px rgba(0, 0, 0, 0.14), 4px 4px 4px rgba(0, 0, 0, 0.12);
+  }
+
+  .media-body{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    line-height: 19px;
+    font-family: 'SFUIText-Regular' 'Roboto' tahoma;
+  }
+  .mt-0{
+    font-weight: 700px;
+    font-size: 18px;
+    line-height:22px;
+    text-align: left;
+  }
+
+.callout{
+  color: #fff;
+  position: absolute;
+  z-index: 4;
+  top:280px;
+  text-align: left;
+  margin-left: 125px;
+}
+
+
+.thirdrow{
+  text-align: center;
+}
