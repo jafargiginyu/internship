@@ -1,3 +1,4 @@
+
 /*Main Body*/
 .rectangle-2 {
   background-color: #FDFEFE;
@@ -240,6 +241,7 @@
 
 .p{
   margin-left: 70px;
+  margin-right: 20px;
 }
 
 #lorem-ipsum-is-simpl {
@@ -328,3 +330,35 @@
       margin-left: 20px;
 
     }
+
+
+  #individuals {
+  color: #734FAB;
+  font-family: DINNextLTPro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+
+
+}
+
+.line {
+  border: 1px solid #734FAB;
+  width: 160px;
+  height: 1px;
+  margin-left: 350px;
+}
+
+
+.companies {
+  color: #313198;
+  font-family: DINNextLTPro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  opacity: 0.4888473731884058;
+  text-align: center;
+}
