@@ -187,8 +187,9 @@
     font-weight: 700px;
     font-size: 18px;
     line-height:22px;
-    text-align: left;
+    text-align: center;
     color:  #48446F;
+    margin-left: 70px;
 
   }
 
@@ -223,4 +224,18 @@
   width: 152px;
   height: 44px;
   margin-left: 7px;
+}
+
+.p{
+  margin-left: 70px;
+}
+
+#lorem-ipsum-is-simpl {
+  color: #48446F;
+  font-family: GalaxiePolaris;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+  padding-top: 20px;
 }
