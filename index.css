@@ -190,8 +190,20 @@
     text-align: center;
     color:  #48446F;
     margin-left: 70px;
-
   }
+
+
+.mt-0-1{
+    font-weight: 700px;
+    font-size: 18px;
+    line-height:22px;
+    text-align: default;
+    color:  #48446F;
+    margin-left: 15px;
+  }
+
+
+
 
 .callout{
   color: #fff;
@@ -280,3 +292,22 @@
   opacity: 0.6013926630434783;
   text-align: center;
 }
+
+.bottom{
+  text-align: left;
+  margin-left: 2px;
+}
+
+
+.dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown::before{
+        position: absolute;
+        content: " \2193";
+        top: 0px;
+        right: -8px;
+        height: 20px;
+        width: 20px;
+    }
