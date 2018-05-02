@@ -240,8 +240,9 @@
 }
 
 .p{
-  margin-left: 70px;
+  
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 #lorem-ipsum-is-simpl {
@@ -361,4 +362,51 @@
   line-height: 22px;
   opacity: 0.4888473731884058;
   text-align: center;
+}
+
+
+.tempus-viverra-turpi {
+  color: #48446F;
+  font-family: SFUIText;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  width: 227px;
+  text-align: left;
+}
+
+
+
+#lorem-ipsum-dolor-si {
+  color: #909BAA;
+  font-family: DINNextLTPro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 282.96px;
+  text-align: center;
+}
+
+
+
+.instant-approval-k {
+  color: #909BAA;
+  font-family: DINNextLTPro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+#lorem-ipsum-is-simpl {
+  color: #4A4A4A;
+  font-family: DINNextLTPro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.4588428442028986;
+  width: 308px;
+  text-align: left;
+  margin-left: 30px;
 }
