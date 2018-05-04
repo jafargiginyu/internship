@@ -509,12 +509,25 @@ margin-left: 2px;"
 }
 
 .btn-info{
-width: 300px; 
-height: 35px; 
-float: left; 
-background-color:#734FAB; 
-color: #FFFFFF; 
-border-radius: 23.5px; box-shadow: 4px 7px 5px 3px rgba(115, 79, 171, 0.15000000596046448);
+ background-color: #734FAB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:50px;
+    width: 300px; 
+    height: 40px; 
+    text-align:center;
+}
+
+
+.btn-text-up{
+  margin-top: -10px;
 }
 
 
@@ -559,3 +572,4 @@ font-size: 14px;
 .left-margin{
   margin-left: -30px;
 }
+
