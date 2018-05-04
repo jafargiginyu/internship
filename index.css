@@ -273,16 +273,6 @@ body {
   margin-left: 20px;
 }
 
-#lorem-ipsum-is-simpl {
-  color: #48446F;
-  font-family: GalaxiePolaris;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 43px;
-  text-align: center;
-  padding-top: 20px;
-}
-
 
 .rectangle-4 {
   background-color: #734FAB;
@@ -303,7 +293,7 @@ body {
 }
 
 
-.lantome-234 {
+.testimonial {
   color: #313198;
   font-family: DINNextLTPro;
   font-size: 16px;
@@ -373,16 +363,7 @@ body {
   margin-left: -30px;
 }
 
-#companies {
-  color: #313198;
-  font-family: DINNextLTPro;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 22px;
-  opacity: 0.4888473731884058;
-  text-align: center;
-   text-decoration: none;
-}
+
 
 .line-copy {
   border: 1px solid #9696CC;
@@ -478,24 +459,11 @@ body {
   text-align: center;
 }
 
-#lorem-ipsum-is-simpl {
-  color: #4A4A4A;
-  font-family: DINNextLTPro;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  opacity: 0.4588428442028986;
-  width: 308px;
-  text-align: left;
-  margin-left: 30px;
-}
 
-
-
-#rectangle {
+.btn-apply {
   border: 2px solid #FFFFFF;
   border-radius: 100px;
-  width: 100px;
+  width: 120px;
   height: 40px;
   color: #fff;
 
@@ -508,19 +476,12 @@ body {
 
 
 
-
-.font-face-bold{
-  margin-top: 15px;
-}
-
-
-
 .topspace{
   margin-top: 15px;
 }
 
 
-.individual2{
+.textimonial-text{
   margin-left: 60px;
 }
 
@@ -539,7 +500,7 @@ margin-top: -50px;
 }
 
 
-#third-row{
+.third-row{
 margin-top: 90px; 
 background-color: #F8F8FF; 
 height: 430px; 
@@ -552,28 +513,30 @@ width: 300px;
 height: 35px; 
 float: left; 
 background-color:#734FAB; 
-color: white; 
+color: #FFFFFF; 
 border-radius: 23.5px; box-shadow: 4px 7px 5px 3px rgba(115, 79, 171, 0.15000000596046448);
 }
 
 
 
-.fourt-row{
+.testimonial-background-color{
 background-color: #fff; 
 height: 400px; 
 margin-left: 10px;"
 }
 
-.third-row-images{
+.testimonial-images{
 margin-right: 60px;
 }
 
-.fith-row{
+.bottom-background-color{
 background-color: #F8F8FF; 
 height: 328px; 
 width: 1330px; 
 margin-left: -75px;
 margin-top: 40px;
+font-family: 'Galaxie Polaris', 'sans-serif', system-ui ;
+font-size: 14px; 
 }
 
 .paragrahp{
