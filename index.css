@@ -249,18 +249,6 @@ body {
 }
 
 
-  .lorem-ipsum {
-  color: #545E7E;
-  font-family: DINNextLTPro;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  width: 632px;
-  text-align: center;
-  margin-left: 200px;
-}
-
-
 .ehealth-logo {
   width: 152px;
   height: 44px;
@@ -274,25 +262,6 @@ body {
 }
 
 
-.rectangle-4 {
-  background-color: #734FAB;
-  border-radius: 23.5px;
-  box-shadow: 4px 7px 5px 3px rgba(115, 79, 171, 0.15000000596046448);
-  width: 351px;
-  height: 47px;
-}
-
-
-.hear-the-things-peop {
-  color: #48446F;
-  font-family: GalaxiePolaris;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 43px;
-  text-align: center;
-}
-
-
 .testimonial {
   color: #313198;
   font-family: DINNextLTPro;
@@ -302,17 +271,6 @@ body {
   text-align: center;
 }
 
-
-.took-a-loan {
-  color: #313198;
-  font-family: DINNextLTPro;
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: 0.4px;
-  line-height: 24px;
-  opacity: 0.6013926630434783;
-  text-align: center;
-}
 
 .bottom{
   text-align: left;
@@ -372,28 +330,6 @@ body {
 }
 
 
-
-#lorem-ipsum-is-simple {
-  color: #48446F;
-  font-family: GalaxiePolaris;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 43px;
-  text-align: center;
-}
-
-
-#lorem-ipsum-is-simple1 {
-  color: #48446F;
-  font-family: GalaxiePolaris;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 43px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-
 .line {
   border: 2px solid #734FAB;
   width: 160px;
@@ -434,31 +370,6 @@ body {
   width: 227px;
   text-align: left;
 }
-
-
-
-#lorem-ipsum-dolor-si {
-  color: #909BAA;
-  font-family: DINNextLTPro;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 282.96px;
-  text-align: center;
-}
-
-
-
-.instant-approval-k {
-  color: #909BAA;
-  font-family: DINNextLTPro;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  width: 200px;
-  text-align: center;
-}
-
 
 .btn-apply {
   border: 2px solid #FFFFFF;
@@ -516,11 +427,11 @@ margin-left: 2px;"
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius:50px;
-    width: 300px; 
+    width: 250px; 
     height: 40px; 
     text-align:center;
 }
@@ -573,3 +484,91 @@ font-size: 14px;
   margin-left: -30px;
 }
 
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 1180px;
+  height: auto;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.main-background-color{
+background-color: 
+whitesmoke;"
+}
+.main-margin-top{
+  margin-top: 30px;
+}
+
+
+
+section {
+  display: none;
+  padding: 20px 0 0;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+}
+
+label:before {
+  font-family: 'Galaxie Polaris', 'sans-serif', system-ui ;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label[for*='1']:before { content: '\f1cb'; }
+label[for*='2']:before { content: '\f17d'; }
+label[for*='3']:before { content: '\f16b'; }
+label[for*='4']:before { content: '\f1a9'; }
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
