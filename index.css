@@ -348,19 +348,6 @@ body {
 }
 
 
-
-
-.companies {
-  color: #313198;
-  font-family: DINNextLTPro;
-  font-size: 18px;
-  width: 160px;
-  opacity: 0.4888473731884058;
-  text-align: center;
-  text-decoration:none;
-}
-
-
 .tempus-viverra-turpi {
   color: #48446F;
   font-family: SFUIText;
@@ -457,7 +444,7 @@ margin-right: 60px;
 background-color: #F8F8FF; 
 height: 328px; 
 width: 1330px; 
-margin-left: -75px;
+margin-left: -102px;
 margin-top: 40px;
 font-family: 'Galaxie Polaris', 'sans-serif', system-ui ;
 font-size: 14px; 
