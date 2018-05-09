@@ -77,7 +77,9 @@ body {
   height: 1.3rem;
 }
 
-.my-brand {}
+​.pbx {
+  padding-bottom: 60px !important;
+}
 
 .my-brand img {
   width: 152px;
@@ -227,7 +229,6 @@ body {
 
 .testimonial {
   color: #313198;
-  font-family: DINNextLTPro;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -334,30 +335,14 @@ body {
   margin-top: -10px;
 }
 
-.testimonial-background-color {
-  background-color: #fff;
-  height: 400px;
-  margin-left: 10px;
-  "
-
-}
-
-.testimonial-images {
-  margin-right: 60px;
-}
-
 .bottom-background-color {
   background-color: #F8F8FF;
-  height: 328px;
-  width: 1330px;
-  margin-left: -102px;
-  margin-top: 40px;
-  font-family: 'Galaxie Polaris', 'sans-serif', system-ui;
   font-size: 14px;
 }
 
 .paragraph {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .margin-left {
@@ -381,6 +366,7 @@ body {
   margin: 0 auto;
   padding-bottom: 60px;
 }
+
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 *,
@@ -484,5 +470,3 @@ input:checked+label {
   text-decoration: none;
   border-bottom: 5px solid #734FAB;
 }
-
-​
