@@ -38,8 +38,8 @@ body {
   min-width: 100%;
   min-height: 756px;
   margin: 0px;
+  padding: 0px;
   display: flex-box;
-  padding: 10px;
   background-color: #fff;
   position: absolute;
   z-index: 1;
@@ -293,7 +293,7 @@ body {
 }
 
 .textimonial-text {
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .programmes-top {
@@ -335,7 +335,7 @@ body {
   margin-top: -10px;
 }
 
-.bottom-background-color {
+.light-grey-bg {
   background-color: #F8F8FF;
   font-size: 14px;
 }
@@ -469,4 +469,13 @@ input:checked+label {
 #under-line {
   text-decoration: none;
   border-bottom: 5px solid #734FAB;
+}
+
+.footer-logo {
+  padding-bottom: 25px;
+  width: 155px;
+}
+
+.pt40 {
+  padding-top: 40px;
 }
